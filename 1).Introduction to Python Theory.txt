@@ -1,0 +1,186 @@
+1).Introduction to Python Theory:
+• Introduction to Python and its Features (simple, high-level, interpreted language). 
+-->Extensible
+   Portable
+   Secure
+   Easy to learn
+• History and evolution of Python. 
+-->1990-91 : Gudo Van Rosuum
+   Monty Python's Circus (comedy)
+• Advantages of using Python over other programming languages. 
+-->integrated language from C,C++,etc..
+   Sorter syntax from other language
+• Installing Python and setting up the development environment (Anaconda, PyCharm, or VS 
+Code). 
+-->Python.org - Official site
+• Writing and executing your first Python program.
+-->name=input("Enter your name:")
+   print(name)
+
+
+
+2). Programming Style:
+
+• Understanding Python’s PEP 8 guidelines. 
+• Indentation, comments, and naming conventions in Python. 
+• Writing readable and maintainable code
+-->Indentation: Use 4 spaces, no tabs.
+   Naming :We can not use any inbuilt function name as variable or any place without string 
+   Comments: Use # for single-line, """ for docstrings.
+a=int(input("Enter number for square:"))
+n=a*a
+print("Square of Enter number:",n)
+
+
+3. Core Python Concepts 
+
+• Understanding data types: integers, floats, strings, lists, tuples, dictionaries, sets. 
+• Python variables and memory allocation. 
+• Python operators: arithmetic, comparison, logical, bitwise. 
+
+
+Integers: Whole numbers (e.g., 10, -5).
+Floats: Decimal numbers (e.g., 3.14, -2.5).
+Strings: Text enclosed in quotes (e.g., 'hello', "world").
+Lists: Ordered, mutable collection (e.g., [1, 2, 3]).
+Tuples: Ordered, immutable collection (e.g., (1, 2, 3)).
+Dictionaries: Key-value pairs (e.g., {'a': 1, 'b': 2}).
+Sets: Unordered, unique items (e.g., {1, 2, 3}).
+Python Variables and Memory Allocation:
+
+Variables hold references to objects in memory.
+Immutable types (e.g., integers, strings) use value storage.
+Mutable types (e.g., lists, dictionaries) use reference storage.
+
+Python Operators:
+Arithmetic: +, -, *, /, %, //.
+Comparison: ==, !=, >, <, >=, <=.
+Logical: and, or, not.
+Bitwise: &, |, ^, ~, <<, >>.
+
+
+Theory: 
+• Introduction to conditional statements: if, else, elif. 
+• Nested if-else conditions.
+
+if (condition) :
+	#syntax
+elif (condition) :
+	#syntax
+else:
+	#syntax
+
+if (condition) :
+	if (condition) :
+		#syntax
+	else:
+		#syntax
+
+
+
+5. Looping (For, While) 
+Theory: 
+• Introduction to for and while loops. 
+• How loops work in Python. 
+• Using loops with collections (lists, tuples, etc.). 
+
+
+i=1,2,3,4,5,6,7,8,9,10
+
+for j in i :
+	print(j)
+
+i=0
+while (condition) :
+	#syntax
+	i++
+
+
+list=[]
+n=int(input("Enter a number of element input"))
+
+for i in range(n) :
+	a=input("Enter element:")
+	list.append(a)
+
+print(list)
+
+
+
+7. Functions and Methods 
+Theory: 
+• Defining and calling functions in Python. 
+• Function arguments (positional, keyword, default). 
+• Scope of variables in Python. 
+• Built-in methods for strings, lists, etc. 
+
+
+def get() :
+	name=input("Enter a name)
+def print() :
+	print(name)
+
+get()
+print()
+
+def get(n) :
+	name=n
+
+name=input("Enter a name)
+get(name)
+print()
+
+lower()
+upper()
+strip()
+
+append()
+extend()
+pop()
+
+count()
+index()
+
+
+keys()
+values()
+
+
+8. Control Statements (Break, Continue, Pass) 
+• Understanding the role of break, continue, and pass in Python loops.
+
+Break
+for i in range(5):
+    if i == 3:
+        break
+    print(i)  
+
+countinue
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+
+pass
+
+for i in range(5):
+    if i == 3:
+        pass  
+    else:
+        print(i)
+
+
+9. String Manipulation 
+• Understanding how to access and manipulate strings. 
+• Basic operations: concatenation, repetition, string methods (upper(), lower(), etc.). 
+• String slicing.
+
+string="Hello"
+string1="python"
+sting2=string+string1
+print(string.upper())
+print(string.lower())
+print(string[1:5]
+
+
+
